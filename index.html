@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gamer</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="shadow-xl shadow-navShadow">
+      <nav
+        class="flex justify-between items-center py-9 max-w-[1930px] px-[240px] mx-auto"
+      >
+        <!-- website logo -->
+        <div class="flex">
+          <img src="images/Frame.png" alt="Website logo" />
+          <h1 class="text-5xl font-workSans font-bold tracking-wider ml-3">
+            <span class="text-primary">G</span>amer
+          </h1>
+        </div>
+        <!-- navbar menus -->
+        <div class="text-xl text-navText font-medium">
+          <ul class="flex justify-center items-center space-x-4">
+            <li>About Us</li>
+            <li>Developers</li>
+            <li class="px-6 py-3 bg-navButton rounded-lg">
+              Follow Us On
+              <i class="fa-brands fa-youtube text-youTube text-2xl ml-3"></i>
+              <i class="fa-brands fa-tiktok text-black ml-3"></i>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- content container -->
+      <div class="max-w-[1930px] mx-auto px-[240px]">
+        <!-- play like a goat section -->
+        <section class="grid grid-cols-2 items-center">
+          <div>
+            <h2
+              class="text-5xl font-bold font-workSans mb-1 uppercase self-start"
+            >
+              Play Like The
+            </h2>
+            <!-- text gradient -->
+            <div class="relative font-workSans">
+              <div class="gradient absolute">
+                <h1 class="text-transparent text-7xl font-extrabold">
+                  G.O.A.T.
+                </h1>
+              </div>
+              <div>
+                <h1 class="text-7xl font-extrabold shadow">G.O.A.T.</h1>
+              </div>
+
+              <ul
+                class="mt-6 text-xl text-secondary font-medium space-y-4 mb-10"
+              >
+                <li>
+                  <p>
+                    <i class="fa-solid fa-play text-primary mr-3"></i>
+                    1-Click instant play
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <i class="fa-solid fa-arrow-down text-primary mr-3"></i>No
+                    Download
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <i class="fa-solid fa-user-group text-primary mr-3"></i
+                    >1000s of supported online games
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <!-- buttons -->
+            <div>
+              <button class="btn bg-primary hover:scale-105 transition-all">
+                Sign In
+              </button>
+              <button
+                class="btn bg-btnColor ml-6 hover:scale-105 transition-all"
+              >
+                Go Rogue
+              </button>
+            </div>
+          </div>
+          <!-- image -->
+          <div>
+            <img src="images/goat-section.png" alt="image" />
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
