@@ -12,6 +12,11 @@ module.exports = {
         navShadow: "rgba(0, 0, 0, 0.05)",
         youTube: "rgb(246, 28, 13)",
         btnColor: "rgb(78, 197, 247)",
+        // gradiant
+        gradientStart: "rgb(249, 72, 178)",
+        gradientEnd: "rgb(135, 88, 241)",
+        // opacity color
+        opacity: "rgba(0, 0, 0, 0.6)",
       },
       fontFamily: {
         workSans: ["Work Sans", "sans-serif"],

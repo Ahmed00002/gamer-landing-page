@@ -9,6 +9,9 @@
   html {
     font-family: "Work Sans", "sans-serif";
   }
+  * {
+    box-sizing: border-box;
+  }
 }
 
 @layer utilities {
@@ -26,5 +29,22 @@
   .shadow {
     text-shadow: 2px 0 1px rgba(128, 128, 128, 0.39);
     z-index: 1;
+  }
+  .para {
+    @apply text-xl font-workSans text-secondary;
+  }
+  .btn-hover {
+    @apply hover:scale-105 transition-all;
+  }
+
+  /* transition */
+  .games:hover .overlay {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .games:hover {
+    @apply ring-4 ring-primary rounded-xl;
   }
 }
